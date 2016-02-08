@@ -127,120 +127,12 @@ nav a:hover {
 	opacity: 1;
 }
 
-#about-me {
-	position: relative;
-	height: 100vh;
-	min-height: 500px;
-	width: 100%;
-	background: url('../img/me.jpg');
-	background-size: cover;
-	/*background-position: 0px -100px; */
-	background-repeat: no-repeat;
-}
-
-#about-me .side-text {
-	font-size: 1.3em;
-	padding: 20px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,0.75);
-	min-width: 400px;
-	width: 45%;
-	height: 100%;
-	color: #fff;
-	line-height: 1.5em;
-}
-
 .side-text a {
 	text-decoration: none;
 	color: #4D6CFF;
 }
 
-#my-apps {
-	min-height: 100vh;
-	background: #AC1000;
-	color: #fff;
-}
-
-.app {
-	position: relative;
-	background: #fff;
-	width: 500px;
-	height: 400px;
-	display: inline-block;
-	margin: 10px;
-	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
-}
-
-#technologies-section {
-	background: #3879D9;
-	color: #fff;
-}
-
 .cover-content h3 {
 	font-size: 2em;
 	color: white;
-}
-
-.section .slide-header {
-	margin: 20px auto;
-	font-size: 3em;
-}
-
-.technologies {
-	display: inline-block;
-	margin: auto;
-}
-
-.technologies img {
-	padding: 5px;
-	margin: 10px;
-	width: 15vh;
-	height: 15vh;
-	background: white;
-	opacity: 0.7;
-	border-radius: 10%;
-}
-
-.technologies img:hover{
-	opacity: 1;
-}
-
-.description {
-	opacity: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.75);
-	color: #fff;
-
-	-webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -ms-transition: opacity 0.5s ease-in-out;
-  -o-transition: opacity 0.5s ease-in-out;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.description:hover {
-	opacity: 1;
-}
-
-.description p{
-	position: absolute;
-	bottom: 0;
-}
-
-#mapitalist {
-	background: url('../img/mapitalist-thumbnail.png');
-	background-size: cover;
-}
-
-#jobtions {
-	background: url('../img/jobtions-thumbnail.png');
-	background-size: cover;
 }

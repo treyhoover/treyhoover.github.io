@@ -48,7 +48,7 @@ ball = {
 			
 			if (0 > this.x+this.side) {
 				ai.score += 1;
-				$('#my-score').html(ai.score);
+				$('#ai-score').html(ai.score);
 				colorIndex = 0;
 			} else {
 				player.score += 1;
